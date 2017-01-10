@@ -12,6 +12,8 @@
 		6B0407301D8C8E4400B453FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B04072E1D8C8E4400B453FD /* Main.storyboard */; };
 		6B0407321D8C8E4400B453FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B0407311D8C8E4400B453FD /* Assets.xcassets */; };
 		6B0407351D8C8E4400B453FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B0407331D8C8E4400B453FD /* LaunchScreen.storyboard */; };
+		6BC395771D8ECAE500480757 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BC395761D8ECAE400480757 /* Minecraft.ttf */; };
+		6BD82D2B1D8DD3AA008054AA /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6BD82D2A1D8DD3AA008054AA /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6B0407311D8C8E4400B453FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B0407341D8C8E4400B453FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B0407361D8C8E4400B453FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC395761D8ECAE400480757 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		6BD82D2A1D8DD3AA008054AA /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				6B0407311D8C8E4400B453FD /* Assets.xcassets */,
 				6B0407331D8C8E4400B453FD /* LaunchScreen.storyboard */,
 				6B0407361D8C8E4400B453FD /* Info.plist */,
+				6BD82D2A1D8DD3AA008054AA /* btn.wav */,
+				6BC395761D8ECAE400480757 /* Minecraft.ttf */,
 			);
 			path = "Udemy Retro Calculator";
 			sourceTree = "<group>";
@@ -126,7 +132,9 @@
 			files = (
 				6B0407351D8C8E4400B453FD /* LaunchScreen.storyboard in Resources */,
 				6B0407321D8C8E4400B453FD /* Assets.xcassets in Resources */,
+				6BC395771D8ECAE500480757 /* Minecraft.ttf in Resources */,
 				6B0407301D8C8E4400B453FD /* Main.storyboard in Resources */,
+				6BD82D2B1D8DD3AA008054AA /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +218,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				"SWIFT_VERSION[arch=*]" = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -252,6 +262,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -260,26 +271,28 @@
 		6B04073A1D8C8E4400B453FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = 53UYHTB3RG;
 				INFOPLIST_FILE = "Udemy Retro Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.nikd.Udemy-Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
+				"SWIFT_VERSION[arch=*]" = 2.3;
 			};
 			name = Debug;
 		};
 		6B04073B1D8C8E4400B453FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = 53UYHTB3RG;
 				INFOPLIST_FILE = "Udemy Retro Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.nikd.Udemy-Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
+				"SWIFT_VERSION[arch=*]" = 2.3;
 			};
 			name = Release;
 		};
@@ -302,6 +315,7 @@
 				6B04073B1D8C8E4400B453FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
